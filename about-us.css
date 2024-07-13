@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap'); 
+ body {
+    font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+}
+
+header .logo img {
+    height: 50px; 
+    border-radius: 15px;
+}
+
+header nav {
+    flex: 1;
+    margin: 0 15px; 
+    display: flex; 
+    justify-content:flex-start; 
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px; 
+    font-weight: bold; 
+}
+
+header .auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+header .auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #050C9C;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 72px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+header .auth-buttons button a{
+    color:#ddd;
+    text-decoration: none;
+}
+
+header .auth-buttons .signup .login {
+    background-color: #3572EF;
+}
+
+main {
+    padding: 30px;
+    max-width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission, .vision {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.mission h1, .vision h1{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 3%;
+}
+
+.vision p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    line-height: 32px;
+}
+
+.mission{
+    padding-bottom: 10%;
+}
+
+.team {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.team h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 3%;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member-1, .team-member-3, .xero-community .community-content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 3%;
+    justify-content: flex-start;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+.xero-community .community-content{
+    text-align: center;
+    background-color: #fff;
+}
+
+.team-member-2, .team-member-4 {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 3%;
+    justify-content: flex-end;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.team-member-1 img, .team-member-3 img, .xero-community .community-content img {
+    margin-right: 10px;
+    max-width: 130px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 17px;
+}
+
+.team-member-2 img, .team-member-4 img {
+    margin-left: 10px;
+    max-width: 130px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 17px;
+}
+
+.team-member-1 p, .team-member-2 p, .team-member-3 p, .team-member-4 p, .xero-community .community-content p {
+    flex: 1;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+
+.xero-community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xero-community .join-now{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    margin: 10px 0 10px 10px;
+}
+
+.xero-community .community-text-button {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+    
+}
+
+footer .footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+footer .footer-section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-section ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+footer .footer-social {
+    display: flex;
+    flex-direction: column; /* Make the content display in a column */
+    align-items: center; /* Center the content */
+    margin-bottom: 20px;
+}
+
+footer .footer-social h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+footer .footer-social .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .footer-social .social-icons a {
+    margin: 0 5px;
+}
+
+footer .footer-social .social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+footer .footer-contact  { 
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.footer-contact button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    margin: 10px 0 10px 10px;
+}
+
+footer .footer-bottom {
+    font-size: 12px;
+    color: #666;
+}
+
+footer .footer-bottom a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer .footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer-social ,.footer-contact{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.3);
+}
